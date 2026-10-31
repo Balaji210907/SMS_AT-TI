@@ -1,0 +1,55 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1793435936769,
+      "tag": "0000_core_schema",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1793436055617,
+      "tag": "0001_business_logic",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1793436086829,
+      "tag": "0002_billing_cron",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1793444934445,
+      "tag": "0003_demo_mode_tables_and_generator",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1793444964190,
+      "tag": "0004_email_logs_payment_transactions_import_batches",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1793445092178,
+      "tag": "0005_demo_discount_products_and_generator_fix",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1793445454331,
+      "tag": "0006_demo_dashboard_metrics_keys_and_verified_payment",
+      "breakpoints": true
+    }
+  ]
+}

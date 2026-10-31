@@ -1,0 +1,12 @@
+# Roadmap
+- [x] Schema, RLS, roles, audit, notifications (realtime)
+- [x] Products/variants, plans, taxes, discounts, customers
+- [x] Quotations → subscriptions, lifecycle actions & history
+- [x] Recurring billing engine (manual + daily scheduled), invoices, payments, reversals
+- [x] Admin/staff dashboard with charts, customer portal
+- [x] Demo/Real modes — separate demo tables, mode switcher, sample data generator, clear
+- [x] Quotation templates UI (CRUD + use template to prefill quotation)
+- [x] Email delivery via Resend — logged sends, retry, honest not-configured state (needs RESEND_API_KEY secret)
+- [x] Razorpay online payments — order → signature verify → record; webhook reconciliation (needs RAZORPAY_KEY_ID/SECRET + webhook secret)
+- [x] CSV/XLSX import for customers, products, plans (admin, duplicate-safe, per-row report)
+- [ ] End-to-end browser verification of the full flow
